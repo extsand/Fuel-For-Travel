@@ -95,7 +95,7 @@ btnCalc.addEventListener('click', function () {
 	// let calc = new Calculate(28.4,3.4,14,300, 0);
 	// console.log(+price.value);
 	// calc._weaterDependence();
-	console.log(twoWay.checked);
+	console.log(twoWay.checked); 
 
 	priceForKm.textContent = calc.toCalcPriceForKm();
 	priceForHKm.textContent = calc.toCalcHKm();
